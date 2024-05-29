@@ -1,0 +1,75 @@
+
+body{ 
+
+    background-color: rgb(123, 163, 163);
+    border: 2px solid black;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-size: 1277px 700px; max
+    border radius 2px;
+    
+  }
+
+#main{ 
+    border: 2px solid black;
+    border-radius:6px ;
+    background-color: rgba(134, 231, 8, 0.55);
+    padding-left: 10px;
+    width: 230px;
+    height: 10%;
+    margin: 0 auto;
+font-size: 20px
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(228, 130, 230);
+}
+input{ font-weight: bolder;
+    color: rgb(0, 0, 10);
+    border-color: rgb(69, 62, 62);
+    border-radius: 2px;
+    
+}
+input:hover{
+  background-color: rgba(237, 91, 91, 0.845);  
+}
+h1{
+    color: rgb(254, 255, 254);
+    text-align: center;
+}
+p{
+    color: aliceblue;
+    text-align: center;
+}
+input[type=text]{
+    background-image: url(image/edit.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+
+}
+input[type=email]{
+    background-image:url(image/email.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+
+}
+input[type=number]{
+ background-image: url(image/phone.png);
+ background-size: 15px;
+ background-repeat: no-repeat;
+ padding-left: 20px;
+}
+input[type=password]{
+    background-image: url(image/forgot.png);
+ background-size: 15px;
+ background-repeat: no-repeat;
+ padding-left: 20px;
+
+
+
+    /* background-size: 15px;
+
+    padding-left: 20px;   */
+}
